@@ -1,0 +1,76 @@
+CSS LAYOUT
+
+-------------------------------------------------------------------------------------------------
+DISPLAY
+
+- inline	= (b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea)
+		  -elemen html yang secara default tidak menambahkan baris baru ketka dibuat
+		  -lebar & tinggi elemennya sebesar konten yang ada di dalamnya
+		  -kita tidak dapat mengatur tinggi & lebar dari elemen inline
+		  -margin & padding hanya mempengaruuhi elemen secara horizontal, tidak vertikal
+
+- inline-block	= -tidak ada elemen yang secara default memiliki properti display: inline-block:
+		  -kita harus ubah secara manual properti tersebut
+		  -perilaku dasarnya sama dengan elemen inline
+		  -perbedaannya, elemen inline-block dapat kita atur tinggi & lebar-nya
+
+- block		= (h1-h6, p, ol, ul, li, form, hr, div, ...)
+		  -elemen html yang secara default menambahkan baris baru ketika dibuat
+		  -jika tidak diatur lebar-nya maka lebar default elemen block akan memenuhi 			   layar browser/ parentnya
+		  -kita dapat mengatur tinggi & lebar dari elemen block
+		  -di dalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-		   block, atau bahkan elemen block lagi
+
+- none		= -untuk menghilangkan sebuah elemen
+
+-------------------------------------------------------------------------------------------------
+
+- widht & height (px, %, in, cm, mm, pt, pc)
+- overflow	 = visible (value default,kalau ada konten yang keluar dari parent maka akan di 		   	    perlihatkan)
+		   auto    (secara otomatis menambahkan scroll ketika kontennya tidak cukup)
+		   hidden  (secara otomatis menyembunyikan ketika tidak cukup)
+		   scroll  (mirip auto, scoll selalu ada)
+
+-------------------------------------------------------------------------------------------------
+CSS BOX MODEL
+
+- margin	= area transparan di sekitar kotak (diluar border)
+		  margin-top/right/bottom/left, margin
+
+- padding	= area transparan di dalam kotak ( antara content dan border)
+		  padding-top/right/bottom/left, padding (tidak ada auto)
+
+- border	= batas di sekeliling content dan padding (MENAMBAH UKURAN  ELEMEN)
+
+		  border-top/right/bottom/left, border
+		  - style (solid, dotted, dashed, double)
+		  	border: widht style color;
+		  	border: 3px solid black;
+
+- content	= konten sebenarnya di dalam box, bisa berupa text atau gambar
+
+RESET CSS
+
+	(meyerweb.com/eric/tools/css/reset/
+	 v2.0 | 20110126
+	 License: none (public domain)
+
+-------------------------------------------------------------------------------------------------
+CSS FLOAT
+
+-float (none, left, right)
+	-text wrapping		= membuat text mengelilingi gambar/ elemen lain
+	- image gallery		= membuat serangkaian gambar menjadi galeri
+	- multi-column layout	= membuat halaman memiliki beberapa kolom
+	- dll
+
+Menghentikan / Membersihkan Float
+ - menggunakan property overflow
+ - mengguunakan <div> kosong
+ - menggunakan teknik micro clearfix
+
+Clear (left, right, both)
+
+-------------------------------------------------------------------------------------------------
+CSS POSITION
+
+(static, relative, absolute, fixed)

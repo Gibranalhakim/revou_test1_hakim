@@ -1,0 +1,109 @@
+CSS
+-------------------------------------------------------------------------------------------
+Jenis CSS
+- Embed
+	<style>
+        h1 {
+            color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+    	</style>
+
+- Inline
+	<h1 style="text-align: center; font-size: 60px;">Hello world</h1>
+
+- External
+	<link rel="stylesheet" href="style.css">
+-------------------------------------------------------------------------------------------
+
+Font
+-font-family	= mengatur jenis font yang digunakan
+-font-size	= mengatur ukuran font (px, %, em)
+-font-weight	= mengatur ketebalan font (lighter,normmal,100-900,bold,bolder)
+-font-variant	= mengubah font menjadi small caps (normal,small-caps)
+-font-style	= mengubah font menjadi bercetak miring (normal,italic,oblique)
+-line-height	= mengatur spasi antar baris (normal,px,em)
+
+-------------------------------------------------------------------------------------------
+
+CSS font shorthand (singkatan)
+		font: font-style, font-variant, font-weight, !!! font-size, 
+		      line-height, !!! font-family
+	body {
+		font: italic normal bold 16px/18px helvetica,arial, sans-serif;
+	     }
+
+-------------------------------------------------------------------------------------------
+
+TEXT
+
+- Color			= memberi warna pada tulisan
+- text-align		= mengatur format paragraf/text (right, left, center, justify)
+- text-indent		= memberi indentasi pada paragraf/text (px, %)
+- text-decoration	= mengatur dekorasi pada text (none,underline,overline,line-trough)
+- text-transform	= mengubah jenis huruf menjadi besar,kecil/kapital 
+			  (none, lowercase, uppercase, capitalize)
+- letter-spacing	= mengatur spasi antar huruf (normal, px)
+- word-spacing		= mengatur spasi antar kata (normal, px) 
+
+
+-------------------------------------------------------------------------------------------
+
+BACKGROUND
+
+- background-color	= mengatur warna background
+- background-image	= mengatur gambar yang akan digunakan pada background
+- background-position	= mengatur posisi gambar pada background
+			  (top left,top center,top right,center left,center center, 
+			   center right,bottom left,bottom center, bottom right, x% y%,
+			   x-pos y-pos)
+- background-repeat	= mengatur jenis pengulangan gambar pada background
+
+BACKGROUND SINGKATAN
+	background: color url() position repeat;
+	backgroung: lightgreen url(bg.png) top left no repeat;
+
+-------------------------------------------------------------------------------------------
+
+SELECTORS
+
+- elemen html
+- id
+- class
+- complex selector
+
+-------------------------------------------------------------------------------------------
+
+PSEUDO-CLASS
+
+: link		= style default pada sebuah link (a yang memiliki href)
+: hover		= style ketika kursor mouse berada di atas link/ elemen
+: active	= style ketika sebuah link di-klik (keadaan aktif)
+: visited	= style ketika sebuah link sudah pernah dikunjungi sebelumnya(browser sama)
+
+: first-child	= memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+: last-child	= memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+: nth-child(n)	= memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)
+		  (1),(2) / (2n),(3n+2),(4n-1) / ganjil,genap (even)&(odd)
+
+: first-of-type	= memilih elemen pertama dari sebuah jenis/ tipe tag
+: last-of-type	= memilih elemen terakhir dari sebuah jenis/ tipe tag
+
+-------------------------------------------------------------------------------------------
+
+INHERITANCE
+
+- color
+- font
+- letter-spacing
+- line-height
+- list-style
+- text-align
+- text-indent
+- text-transform
+- visibility
+- white-space
+
+	a{color: inherit; }
+
+-------------------------------------------------------------------------------------------

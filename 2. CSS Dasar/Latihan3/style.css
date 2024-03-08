@@ -1,0 +1,14 @@
+h1 {
+    font-size: 110px;
+    color: #123123;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    letter-spacing: 12px;
+  }
+  p {
+    font-size: 15px;
+    color: rgb(5,100,200);
+    text-align: justify;
+    text-indent: 100px;
+  }

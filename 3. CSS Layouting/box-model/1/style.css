@@ -1,0 +1,75 @@
+div{display: inline-block;}
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.dua{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin-top: 50px;
+}
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 0px;
+}
+
+.aa{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.bb{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    /* overlaping margin */
+    margin-left: -200px;
+}
+.cc{
+    width: 50px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 0px;
+}
+
+.abc{
+    width: 50px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    /* margin semua sisi */
+    margin: auto;
+}
+.bcd{
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    /* margin semua sisi */
+    margin: 30px auto;
+}
+.cde{
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    /* margin atas, kanan & kiri, bawah */
+    margin: 10px 100px 20px;
+}
+.def{
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    /* margin atas, kanan, bawah, kiri */
+    margin: 10px 100px 20px 50px;
+}

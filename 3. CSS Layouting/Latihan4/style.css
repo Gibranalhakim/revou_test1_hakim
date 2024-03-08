@@ -1,0 +1,14 @@
+body, h1, p{
+    margin: 0;
+    padding: 0;
+}
+/* reset yang kurang bagus */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

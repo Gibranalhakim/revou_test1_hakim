@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <body>
+       
+        <form>
+            <label for="username">username</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password">
+            <br>
+            <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+            <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+            <br>
+            <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+            <input type="checkbox" id="memasak"><label for="memasak">memasak</label>
+            <input type="checkbox" id="menyapu"><label for="menyapu">menyapu</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+            <select>
+                <option>Bandung</option>
+                <option>Yogyakarta</option>
+                <option>jakarta</option>
+            </select>
+            <br><br>
+            <!-- tombol gunakan button -->
+            <button type="submit">kirim</button>
+            <button type="reset">batal</button>
+        </form>
+
+        <br><br><br>
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <form>
+            <tr>
+                <td>text : </td>
+                <td colspan="2">
+                        <label for="username"></label>
+                        <input type="text" id="username" >
+                </td>
+            </tr>
+            <tr>
+                <td>password : </td>
+                <td colspan="2">
+                        <label for="password"></label>
+                        <input type="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                        <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+                        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                        <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+                        <input type="checkbox" id="memasak"><label for="memasak">memasak</label>
+                </td>
+            </tr>
+            <tr>
+                <td> Combo box : </td>
+                <td colspan="2">
+                        <select>
+                            <option>Bandung</option>
+                            <option>Yogyakarta</option>
+                            <option>jakarta</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Textarea :</td>
+                <td colspan="2" rowspan="2">
+                        <textarea name="" id="" cols="20" rows="0"></textarea>
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td colspan="3">
+                        <button type="submit">kirim</button>
+                        <button type="reset">batal</button>
+                </td>
+            </tr>
+            </form>
+        </table>
+
+    </body>
+</html>

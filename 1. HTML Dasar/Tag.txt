@@ -1,0 +1,52 @@
+Apa saja yang bisa ada dalam HEAD?
+- Judul halaman 		<title></title>
+- CSS				<style></style>
+- Javascript			<script></script>
+- Metadata			<meta></meta>
+
+Apa saja yang bisa ada dalam BODY?
+- Text			     	<h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>
+- Pendukung text	     	<br>, <hr>, <em>, <strong>
+- Gambar		     	<img>
+				src	= sumber gambar
+				alt	= alternative text pada gambar
+				title	= pop up nama saat ditunjuk kursor
+				widht, height (px/%)
+
+- Hyperlink		     	<a>
+				<a target=""></a>
+				_self	= link di halaman yang sama
+				_blank	= link di tab baru
+				_parent	
+				_top
+
+- List(bullets & numbering)  	<ul>(disc,squre,circle) , <ol>(1,A,a,I,i) , <li>, <dl>, <dt>, <dd>
+
+- Tabel				<table>, <thead>, <tbody>
+			dg CSS	border		= garis di sekitar cell
+				cellspacing	= menambah jarak antar cell
+				cellpadding	= memberi luas sebuah cell
+
+			merging	colspan		= menggabungkan cell horizontal
+				rowspan		= menggabungkan cell vertikal
+
+- Form				<form>, <input>, <select>, <button>
+				input	= menginputkan sesuatu
+				<input type="">(text,pass,radio,checkbox,submit,reset,button)
+
+				textarea= pesan/komentar
+				select	= drop down
+				button	= tombol
+				label	= menandai elemen input
+
+- Script			<script>
+- Object			<object>
+- Grouping			<div>, <span>
+- Komentar			<!-- ini komentar. -->
+
+Struktur tag	<namatag atribut="nilai/value">
+		<body	 bgcolor="lightblue">
+		<body	 bgcolor="lightblue" id="myid" class="myclass">
+
+	Atribut global	(accesskey, class, id, dir, lang, style, tabindex, title)
+	Atribut lebih lengkapnya	(www.w3school.com/Tags)
