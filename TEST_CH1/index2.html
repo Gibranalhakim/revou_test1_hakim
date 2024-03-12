@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button {
+            width: 100%;
+        }
+        .abc {
+            background-color: aliceblue;
+            border-color: black;
+        }
+    </style>
 </head>
 <body>
     
     <h1>Output:</h1>
-    <table>
+    <table class="abc" border="1" cellspacing="0" cellpadding="5">
         <tr>
             <th>Company</th>
             <th>Contact</th>
@@ -25,5 +34,55 @@
             <td>Mexico</td>
         </tr>
     </table>
+    <br><br>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>Asal</th>
+            <th>Domisili</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>jakarta</center>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <tr>
+            <th colspan="4"><input type="text" name="display"></th>
+        </tr>
+        <tr>
+            <td colspan="2"><button><center>AC</center></button></td>
+            <td><button><center>C</center></button></td>
+            <td><button><center>*</center></button></td>
+        </tr>
+        <tr>
+            <td><button><center>7</center></button></td>
+            <td><button><center>8</center></button></td>
+            <td><button><center>9</center></button></td> 
+            <td><button><center>/</center></button></td>      
+        </tr>
+        <tr>
+            <td><button><center>4</center></button></td>
+            <td><button><center>5</center></button></td>
+            <td><button><center>6</center></button></td> 
+            <td><button><center>+</center></button></td>      
+        </tr>
+        <tr>
+            <td><button><center>1</center></button></td>
+            <td><button><center>2</center></button></td>
+            <td><button><center>3</center></button></td> 
+            <td><button><center>-</center></button></td>      
+        </tr>
+        <tr>
+            <td><button><center>+-</center></button></td>
+            <td><button><center>0</center></button></td>
+            <td><button><center>.</center></button></td> 
+            <td><button><center>=</center></button></td>      
+        </tr>
+
+    </table>
+
+
 </body>
 </html>
